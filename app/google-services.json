@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "747211551364",
+    "firebase_url": "https://playpadel-1ab5e.firebaseio.com",
+    "project_id": "playpadel-1ab5e",
+    "storage_bucket": "playpadel-1ab5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747211551364:android:b7eec80af95cf371",
+        "android_client_info": {
+          "package_name": "com.develop.playpadel.playpadel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747211551364-bs0i8s078vih106li82jhirfsgdop2c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRc-T0u3PZPxfjkfpQ1kRNFVay-Xw8WiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
