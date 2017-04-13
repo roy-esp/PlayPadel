@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity  implements
         // Button listeners
         findViewById(R.id.sign_in_button).setOnClickListener(this);
         findViewById(R.id.sign_out_button).setOnClickListener(this);
-
+        findViewById(R.id.disconnect_button).setOnClickListener(this);
 
 
         // [START configure_signin]
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity  implements
             Log.d(TAG, "Got cached sign-in");
             GoogleSignInResult result = opr.get();
             handleSignInResult(result);
-            intentInicio();
+            //intentInicio();
         } else {
             // If the user has not previously signed in on this device or the sign-in has expired,
             // this asynchronous branch will attempt to sign in the user silently.  Cross-device
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity  implements
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
-            mStatusTextView.setText("Signed in as:"+acct.getDisplayName());
+            mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getDisplayName()));
             updateUI(true);
         } else {
             // Signed out, show unauthenticated UI.
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity  implements
     private void showProgressDialog() {
         if (mProgressDialog == null) {
             mProgressDialog = new ProgressDialog(this);
-            mProgressDialog.setMessage("Loading..");
+            mProgressDialog.setMessage(getString(R.string.loading));
             mProgressDialog.setIndeterminate(true);
         }
 
@@ -188,11 +188,11 @@ public class MainActivity extends AppCompatActivity  implements
         if (signedIn) {
             findViewById(R.id.sign_in_button).setVisibility(View.GONE);
             findViewById(R.id.sign_out_and_disconnect).setVisibility(View.VISIBLE);
-            intentInicio();
+            //intentInicio();
 
 
         } else {
-            mStatusTextView.setText("Signed Out");
+            mStatusTextView.setText(R.string.signed_out);
 
             findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
             findViewById(R.id.sign_out_and_disconnect).setVisibility(View.GONE);
@@ -213,7 +213,9 @@ public class MainActivity extends AppCompatActivity  implements
             case R.id.sign_out_button:
                 signOut();
                 break;
-
+            case R.id.disconnect_button:
+                revokeAccess();
+                break;
 
         }
     }
