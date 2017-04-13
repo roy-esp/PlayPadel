@@ -54,4 +54,5 @@
          from https://console.developers.google.com/ -->
     <string name="server_client_id">1061394277769-g9a2mvlfgrfs2plbntttkog0734m13af.apps.googleusercontent.com</string>
     <string name="title_activity_inicio">Inicio</string>
+    <string name="facebook_app_id">122998904910477</string>
 </resources>
