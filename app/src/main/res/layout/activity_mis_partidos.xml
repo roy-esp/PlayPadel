@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.develop.playpadel.playpadel.mis_partidos">
 
     <EditText
@@ -159,5 +160,8 @@
         android:textColor="@color/Secondary_text"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="132dp" />
+=======
+    tools:context="com.develop.playpadel.playpadel.MisPartidosActivity">
+>>>>>>> newBranchName
 
 </android.support.constraint.ConstraintLayout>
