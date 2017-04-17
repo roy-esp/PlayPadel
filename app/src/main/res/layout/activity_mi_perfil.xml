@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context="com.develop.playpadel.playpadel.MiPerfilActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="127dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/ic_user"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="106dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Nombre del Usuario"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="277dp"
+        android:layout_height="25dp"
+        android:progress="60"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="23dp"
+        android:paddingLeft="5px"
+        android:text="Experiencia de usuario"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="67dp"
+        android:layout_height="19dp"
+        android:paddingLeft="5px"
+        android:text="Nivel"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4.25"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_settings"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
 </android.support.constraint.ConstraintLayout>
