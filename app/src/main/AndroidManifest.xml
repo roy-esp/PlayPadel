@@ -25,12 +25,10 @@
         <activity android:name=".Inicio" />
         <activity android:name=".LogInActivity" />
 <<<<<<< HEAD
-        <activity android:name=".mis_partidos"></activity>
-=======
+        =======
         <activity android:name=".ValoracionPartidoActivity" />
         <activity android:name=".MisPartidosActivity" />
         <activity android:name=".ChatActivity" />
-        <activity android:name=".BuscarParticipanteActivity" />
         <activity android:name=".BuscarPartidoActivity" />
         <activity android:name=".CrearPartidoActivity" />
         <activity android:name=".MiPerfilActivity"></activity>
