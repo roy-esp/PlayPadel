@@ -19,7 +19,7 @@
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:layout_margin="8dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/Divider" />
 
         <TextView
             android:id="@+id/nameTextView"
