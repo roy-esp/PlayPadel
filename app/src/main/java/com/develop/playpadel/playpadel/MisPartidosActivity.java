@@ -8,10 +8,8 @@ public class MisPartidosActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        setContentView(R.layout.activity_mis_partidos2);
-=======
+
         setContentView(R.layout.activity_mis_partidos);
->>>>>>> newBranchName
+
     }
 }
