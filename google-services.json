@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "747211551364",
-    "firebase_url": "https://playpadel-1ab5e.firebaseio.com",
-    "project_id": "playpadel-1ab5e",
-    "storage_bucket": "playpadel-1ab5e.appspot.com"
+    "project_number": "112721406301",
+    "firebase_url": "https://playpadel-f3b58.firebaseio.com",
+    "project_id": "playpadel-f3b58",
+    "storage_bucket": "playpadel-f3b58.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:747211551364:android:b7eec80af95cf371",
+        "mobilesdk_app_id": "1:112721406301:android:b7eec80af95cf371",
         "android_client_info": {
           "package_name": "com.develop.playpadel.playpadel"
         }
       },
       "oauth_client": [
         {
-          "client_id": "747211551364-bs0i8s078vih106li82jhirfsgdop2c7.apps.googleusercontent.com",
+          "client_id": "112721406301-binu19ouhpfjufh0306s4jer7ece7t8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.develop.playpadel.playpadel",
+            "certificate_hash": "2e9b67996726f2bcfee1620f875ee427ecc77c45"
+          }
+        },
+        {
+          "client_id": "112721406301-pdpj4ijiucnarvlpvpgl70o22gl1eaf6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCRc-T0u3PZPxfjkfpQ1kRNFVay-Xw8WiA"
+          "current_key": "AIzaSyCXDgyXoh9grS3aFkkyS5Rmpc70TGMfruA"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112721406301-pdpj4ijiucnarvlpvpgl70o22gl1eaf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
