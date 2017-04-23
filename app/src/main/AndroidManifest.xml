@@ -15,7 +15,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".PrimerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,12 +24,7 @@
         </activity>
         <activity android:name=".Inicio" />
         <activity android:name=".LogInActivity" />
-        <activity android:name=".ValoracionPartidoActivity" />
-        <activity android:name=".MisPartidosActivity" />
-        <activity android:name=".ChatActivity" />
-        <activity android:name=".BuscarPartidoActivity" />
-        <activity android:name=".CrearPartidoActivity" />
-        <activity android:name=".MiPerfilActivity"></activity>
+
 
     </application>
 

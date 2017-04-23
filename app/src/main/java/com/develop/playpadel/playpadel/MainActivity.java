@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        photoImageView = (ImageView) findViewById(R.id.photoImageView);
-        nameTextView = (TextView) findViewById(R.id.nameTextView);
-        emailTextView = (TextView) findViewById(R.id.emailTextView);
-        idTextView = (TextView) findViewById(R.id.idTextView);
+        photoImageView = (ImageView) findViewById(R.id.miFotoId);
+        nameTextView = (TextView) findViewById(R.id.miNombreId);
+        //  emailTextView = (TextView) findViewById(R.id.emailTextView);
+        // idTextView = (TextView) findViewById(R.id.idTextView);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()

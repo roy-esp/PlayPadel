@@ -3,7 +3,7 @@
 
     xmlns:ads="http://schemas.android.com/apk/res-auto"
 
-    android:layout_height="wrap_content" tools:context=".MainActivity"
+    android:layout_height="wrap_content" tools:context=".PrimerActivity"
     >
 
     <LinearLayout
@@ -17,14 +17,23 @@
         android:baselineAligned="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:clickable="false">
+        android:clickable="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="false">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="IrHome"
+            android:text="Atrás" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/elPartidoId"
             android:layout_width="wrap_content"
             android:layout_height="63dp"
             android:layout_gravity="center_horizontal"
-            android:text="Crear Partido"
+            android:text="Buscar Partido"
             android:textSize="32sp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -35,7 +44,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/miNombreId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -45,10 +54,11 @@
                 tools:layout_editor_absoluteY="16dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignStart="@+id/textView"
-                android:layout_marginTop="56dp" />
+                android:layout_marginTop="56dp"
+                android:layout_alignLeft="@+id/textView" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/jugador1Id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/button2"
@@ -58,7 +68,8 @@
                 android:text="¿No te convencen?"
                 android:textSize="32sp"
                 tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_alignLeft="@+id/button2" />
 
             <Button
                 android:id="@+id/button2"
@@ -68,6 +79,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="49dp"
                 android:background="#009688"
+                android:onClick="IrCrear"
                 android:text="INDICA TÚ UNA"
                 tools:layout_editor_absoluteX="41dp"
                 tools:layout_editor_absoluteY="426dp" />
@@ -81,7 +93,7 @@
                 android:textSize="32sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp"
-                android:layout_below="@+id/textView2"
+                android:layout_below="@+id/miNombreId"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="23dp" /> <!-- time picker mode of a time picker -->
 
